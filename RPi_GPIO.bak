@@ -35,7 +35,7 @@ U 1 1 5D9B3C9E
 P 4450 1600
 F 0 "U2" H 4450 2278 50  0000 C CNN
 F 1 "ADS1115IDGS" H 4450 2187 50  0000 C CNN
-F 2 "RPi_Hat_Template:ADS1115" H 4450 1100 50  0001 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 4450 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 4400 700 50  0001 C CNN
 	1    4450 1600
 	1    0    0    -1  
@@ -260,6 +260,17 @@ F 3 "~" H 1600 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R1
+U 1 1 5D9BBB99
+P 1600 4450
+F 0 "R1" H 1670 4496 50  0000 L CNN
+F 1 "R" H 1670 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 1530 4450 50  0001 C CNN
+F 3 "~" H 1600 4450 50  0001 C CNN
+	1    1600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:LED D3
 U 1 1 5D9BC0E8
 P 1950 4150
@@ -269,6 +280,17 @@ F 2 "LEDs:LED_D3.0mm" H 1950 4150 50  0001 C CNN
 F 3 "~" H 1950 4150 50  0001 C CNN
 	1    1950 4150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D9BC0EF
+P 1950 4450
+F 0 "R2" H 2020 4496 50  0000 L CNN
+F 1 "R" H 2020 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 1880 4450 50  0001 C CNN
+F 3 "~" H 1950 4450 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D4
@@ -282,6 +304,17 @@ F 3 "~" H 2300 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R3
+U 1 1 5D9BC48A
+P 2300 4450
+F 0 "R3" H 2370 4496 50  0000 L CNN
+F 1 "R" H 2370 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 2230 4450 50  0001 C CNN
+F 3 "~" H 2300 4450 50  0001 C CNN
+	1    2300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:LED D5
 U 1 1 5D9BC80E
 P 2650 4150
@@ -291,6 +324,17 @@ F 2 "LEDs:LED_D3.0mm" H 2650 4150 50  0001 C CNN
 F 3 "~" H 2650 4150 50  0001 C CNN
 	1    2650 4150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D9BC815
+P 2650 4450
+F 0 "R4" H 2720 4496 50  0000 L CNN
+F 1 "R" H 2720 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 2580 4450 50  0001 C CNN
+F 3 "~" H 2650 4450 50  0001 C CNN
+	1    2650 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D6
@@ -304,6 +348,17 @@ F 3 "~" H 3000 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R5
+U 1 1 5D9BCE3D
+P 3000 4450
+F 0 "R5" H 3070 4496 50  0000 L CNN
+F 1 "R" H 3070 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 2930 4450 50  0001 C CNN
+F 3 "~" H 3000 4450 50  0001 C CNN
+	1    3000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:LED D7
 U 1 1 5D9BCE44
 P 3350 4150
@@ -313,6 +368,17 @@ F 2 "LEDs:LED_D3.0mm" H 3350 4150 50  0001 C CNN
 F 3 "~" H 3350 4150 50  0001 C CNN
 	1    3350 4150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D9BCE4B
+P 3350 4450
+F 0 "R6" H 3420 4496 50  0000 L CNN
+F 1 "R" H 3420 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 3280 4450 50  0001 C CNN
+F 3 "~" H 3350 4450 50  0001 C CNN
+	1    3350 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D8
@@ -326,6 +392,17 @@ F 3 "~" H 3700 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R7
+U 1 1 5D9BCE59
+P 3700 4450
+F 0 "R7" H 3770 4496 50  0000 L CNN
+F 1 "R" H 3770 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 3630 4450 50  0001 C CNN
+F 3 "~" H 3700 4450 50  0001 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:LED D9
 U 1 1 5D9BCE60
 P 4050 4150
@@ -335,6 +412,17 @@ F 2 "LEDs:LED_D3.0mm" H 4050 4150 50  0001 C CNN
 F 3 "~" H 4050 4150 50  0001 C CNN
 	1    4050 4150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D9BCE67
+P 4050 4450
+F 0 "R8" H 4120 4496 50  0000 L CNN
+F 1 "R" H 4120 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 3980 4450 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D10
@@ -348,6 +436,17 @@ F 3 "~" H 4400 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R9
+U 1 1 5D9BDEBB
+P 4400 4450
+F 0 "R9" H 4470 4496 50  0000 L CNN
+F 1 "R" H 4470 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 4330 4450 50  0001 C CNN
+F 3 "~" H 4400 4450 50  0001 C CNN
+	1    4400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:LED D11
 U 1 1 5D9BDEC2
 P 4750 4150
@@ -358,6 +457,151 @@ F 3 "~" H 4750 4150 50  0001 C CNN
 	1    4750 4150
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R R10
+U 1 1 5D9BDEC9
+P 4750 4450
+F 0 "R10" H 4820 4496 50  0000 L CNN
+F 1 "R" H 4820 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 4680 4450 50  0001 C CNN
+F 3 "~" H 4750 4450 50  0001 C CNN
+	1    4750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5D9BDED0
+P 5100 4150
+F 0 "D12" V 5138 4033 50  0000 R CNN
+F 1 "LED" V 5047 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 5100 4150 50  0001 C CNN
+F 3 "~" H 5100 4150 50  0001 C CNN
+	1    5100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5D9BDED7
+P 5100 4450
+F 0 "R11" H 5170 4496 50  0000 L CNN
+F 1 "R" H 5170 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 5030 4450 50  0001 C CNN
+F 3 "~" H 5100 4450 50  0001 C CNN
+	1    5100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 5D9BDEDE
+P 5450 4150
+F 0 "D13" V 5488 4033 50  0000 R CNN
+F 1 "LED" V 5397 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 5450 4150 50  0001 C CNN
+F 3 "~" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5D9BDEE5
+P 5450 4450
+F 0 "R12" H 5520 4496 50  0000 L CNN
+F 1 "R" H 5520 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 5380 4450 50  0001 C CNN
+F 3 "~" H 5450 4450 50  0001 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 5D9BDEEC
+P 5800 4150
+F 0 "D14" V 5838 4033 50  0000 R CNN
+F 1 "LED" V 5747 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 5800 4150 50  0001 C CNN
+F 3 "~" H 5800 4150 50  0001 C CNN
+	1    5800 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5D9BDEF3
+P 5800 4450
+F 0 "R13" H 5870 4496 50  0000 L CNN
+F 1 "R" H 5870 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 5730 4450 50  0001 C CNN
+F 3 "~" H 5800 4450 50  0001 C CNN
+	1    5800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 5D9BDEFA
+P 6150 4150
+F 0 "D15" V 6188 4033 50  0000 R CNN
+F 1 "LED" V 6097 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 6150 4150 50  0001 C CNN
+F 3 "~" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5D9BDF01
+P 6150 4450
+F 0 "R14" H 6220 4496 50  0000 L CNN
+F 1 "R" H 6220 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 6080 4450 50  0001 C CNN
+F 3 "~" H 6150 4450 50  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5D9BDF08
+P 6500 4150
+F 0 "D16" V 6538 4033 50  0000 R CNN
+F 1 "LED" V 6447 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 6500 4150 50  0001 C CNN
+F 3 "~" H 6500 4150 50  0001 C CNN
+	1    6500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5D9BDF0F
+P 6500 4450
+F 0 "R15" H 6570 4496 50  0000 L CNN
+F 1 "R" H 6570 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 6430 4450 50  0001 C CNN
+F 3 "~" H 6500 4450 50  0001 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5D9BDF16
+P 6850 4150
+F 0 "D17" V 6888 4033 50  0000 R CNN
+F 1 "LED" V 6797 4033 50  0000 R CNN
+F 2 "LEDs:LED_D3.0mm" H 6850 4150 50  0001 C CNN
+F 3 "~" H 6850 4150 50  0001 C CNN
+	1    6850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5D9BDF1D
+P 6850 4450
+F 0 "R16" H 6920 4496 50  0000 L CNN
+F 1 "R" H 6920 4405 50  0000 L CNN
+F 2 "keebio_parts:Resistor-Hybrid" V 6780 4450 50  0001 C CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4000 6500 4000
 Connection ~ 1600 4000
 Wire Wire Line
 	1600 4000 1450 4000
@@ -385,17 +629,80 @@ Wire Wire Line
 Connection ~ 4400 4000
 Wire Wire Line
 	4400 4000 4050 4000
+Connection ~ 4750 4000
 Wire Wire Line
 	4750 4000 4400 4000
+Connection ~ 5100 4000
+Wire Wire Line
+	5100 4000 4750 4000
+Connection ~ 5450 4000
+Wire Wire Line
+	5450 4000 5100 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5450 4000
+Connection ~ 6150 4000
+Wire Wire Line
+	6150 4000 5800 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6150 4000
+Wire Wire Line
+	1600 4600 1950 4600
+Connection ~ 1950 4600
+Wire Wire Line
+	1950 4600 2300 4600
+Connection ~ 2300 4600
+Wire Wire Line
+	2300 4600 2650 4600
+Connection ~ 2650 4600
+Wire Wire Line
+	2650 4600 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 3350 4600
+Connection ~ 3350 4600
+Wire Wire Line
+	3350 4600 3700 4600
+Connection ~ 3700 4600
+Wire Wire Line
+	3700 4600 4050 4600
+Connection ~ 4050 4600
+Wire Wire Line
+	4050 4600 4400 4600
+Connection ~ 4400 4600
+Wire Wire Line
+	4400 4600 4750 4600
+Connection ~ 4750 4600
+Wire Wire Line
+	4750 4600 5100 4600
+Connection ~ 5100 4600
+Wire Wire Line
+	5100 4600 5450 4600
+Connection ~ 5450 4600
+Wire Wire Line
+	5450 4600 5800 4600
+Connection ~ 5800 4600
+Wire Wire Line
+	5800 4600 6150 4600
+Connection ~ 6150 4600
+Wire Wire Line
+	6150 4600 6500 4600
+Connection ~ 6500 4600
+Wire Wire Line
+	6500 4600 6850 4600
+Connection ~ 6850 4600
+Wire Wire Line
+	6850 4600 7050 4600
 $Comp
 L power:GND #PWR011
 U 1 1 5D9BF35F
-P 6600 4300
-F 0 "#PWR011" H 6600 4050 50  0001 C CNN
-F 1 "GND" H 6605 4127 50  0000 C CNN
-F 2 "" H 6600 4300 50  0001 C CNN
-F 3 "" H 6600 4300 50  0001 C CNN
-	1    6600 4300
+P 7050 4600
+F 0 "#PWR011" H 7050 4350 50  0001 C CNN
+F 1 "GND" H 7055 4427 50  0000 C CNN
+F 2 "" H 7050 4600 50  0001 C CNN
+F 3 "" H 7050 4600 50  0001 C CNN
+	1    7050 4600
 	1    0    0    -1  
 $EndComp
 Text GLabel 1450 4000 0    50   Input ~ 0
@@ -644,33 +951,4 @@ F 3 "~" H 7450 2925 50  0001 C CNN
 $EndComp
 Text GLabel 7450 2925 1    50   Input ~ 0
 3.3V
-Wire Wire Line
-	1600 4300 1950 4300
-Connection ~ 1950 4300
-Wire Wire Line
-	1950 4300 2300 4300
-Connection ~ 2300 4300
-Wire Wire Line
-	2300 4300 2650 4300
-Connection ~ 2650 4300
-Wire Wire Line
-	2650 4300 3000 4300
-Connection ~ 3000 4300
-Wire Wire Line
-	3000 4300 3350 4300
-Connection ~ 3350 4300
-Wire Wire Line
-	3350 4300 3700 4300
-Connection ~ 3700 4300
-Wire Wire Line
-	3700 4300 4050 4300
-Connection ~ 4050 4300
-Wire Wire Line
-	4050 4300 4400 4300
-Connection ~ 4400 4300
-Wire Wire Line
-	4400 4300 4750 4300
-Connection ~ 4750 4300
-Wire Wire Line
-	4750 4300 6600 4300
 $EndSCHEMATC

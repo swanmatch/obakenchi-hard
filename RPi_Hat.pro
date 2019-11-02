@@ -1,18 +1,22 @@
-update=01/20/2019 1:33:13 PM
+update=2019年10月10日 23時02分19秒
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=C:/xesscorp/KiCad/page_layouts/title_block_only.kicad_wks
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
+LastNetListRead=RPi_GPIO.net
+PadDrill=2.75
+PadDrillOvalY=2.75
+PadSizeH=2.75
+PadSizeV=2.75
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -20,12 +24,7 @@ ModuleTextSizeV=1
 ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
 SolderMaskClearance=0
-SolderMaskMinWidth=0
+SolderMaskMinWidth=0.25
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
-[eeschema]
-version=1
-LibDir=
